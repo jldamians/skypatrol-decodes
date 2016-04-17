@@ -1,0 +1,36 @@
+{
+  "name": "skypatrol-decodes",
+  "version": "1.0.0",
+  "description": "Decodificación de trama SKYPATROL",
+  "engines": {
+    "node": ">=0.10.25"
+  },
+  "author": "Jose Luis Damian Saavedra <jlds161089@gmail.com>",
+  "dependencies": {
+    "convert-base": "^0.1.0",
+    "moment": "^2.12.0",
+    "require-dir-all": "^0.4.9"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saavedrajl/skypatrol-decodes.git"
+  },
+  "main": "./index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "keywords": [
+    "TT8750+"
+  ],
+  "licenses": [
+    {
+      "type": "MIT License",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "scripts": {
+    "start": "node ./examples/example01.js",
+    "test": "mocha test"
+  }
+}
