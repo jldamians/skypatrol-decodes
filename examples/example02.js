@@ -1,6 +1,6 @@
 'use strict';
 
-var GENERIC_COMMAND_TYPES = require('../index.js').constants.genericCommandTypes;
+var GENERIC_COMMAND_TYPES = require('../index.js').constants.commandTypes;
 var Commands = require('../index.js').commands;
 
 console.log('activateImmobilizer =>', Commands(GENERIC_COMMAND_TYPES.activateImmobilizer));
